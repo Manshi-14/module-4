@@ -1,0 +1,95 @@
+body{
+  background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid white;
+}
+#customers {
+  /*float: right;*/
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: separate;
+  width: 90%;
+  background: #c9e394;
+  margin: 20px;
+  /*opacity: 0.9;*/
+}
+
+#customers td, #customers th {
+  border: 1px solid #77b004;
+  padding: 8px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+#customers .one{
+  text-align: left;
+}
+/*#customers tr:nth-child(even){background-color: #f2f2f2;}*/
+
+#customers tr:hover {background-color: #ddd;
+  opacity: 1;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+/*#customers .one{
+  text-align: left;
+}*/
+td:nth-child(1), th:nth-child(1){
+  text-align: left;
+}
+h1{
+  color:  #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: courier;
+  font-size: 300%;
+  line-height: 120%;
+}
+nav a{
+  display: inline-block;
+  width: 200px;
+  margin: 3.5%;
+  text-decoration: none;
+  background: rgba(255,255,255,0.2);
+  color: #000000;
+  font-weight: bolder;
+  padding: 30px;
+  text-align: center;
+  border-radius: 7px;
+}
+a:link{
+  color: black;
+}
+a:hover{
+  background: rgba(255,255,255);
+}
+.active{
+  background: white;
+  color: black;
+}
+aside{
+  width: 20%;
+  margin-left: 3.5%;
+  margin-top: 5px;
+  background-color: rgba(255,255,255,0.5);
+}
+img{
+  padding: 50px;
+}
+section, aside{
+  display: inline-block;
+}
+section{
+  background-color: rgba(255,255,255,0.5) ;
+  width: 67%;
+  height: 800px;
+  float: right;
+  padding: 30px;
+}
